@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Registration Form</title>
+</head>
+<body>
+    <div class="overlay">
+    <div class="container">
+        <div class="form">
+            <h1 id="form-title">Sign Up</h1>
+            <div class="signup-form">
+                <form action="#" id="form">
+                    <div class="field" id="user-name-container">
+                        <input type="text" name="name" id="name" required>
+                        <label for="name">Username</label>
+                    </div>
+                    <div class="field">
+                        <input type="email" name="email" id="email" required>
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="field pwd">
+                        <input type="password" name="password" id="password" required>
+                        <label for="password">Password</label>
+                        <div class="eye password">
+                            <i class="fa-solid fa-eye-slash"></i>
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="field pwd" id="confirm-password-container">
+                        <input type="password" name="confirmPassword" id="confirmPassword" required>
+                        <label for="confirmPassword">Confirm Password</label>
+                        <div class="eye confirm-password">
+                            <i class="fa-solid fa-eye-slash"></i>
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" id="submit-button">Sign Up</button>
+                    <p id="toggle-form-text">Already have an account? <span id="toggle-form">Sign In</span></p>
+                </form>
+            </div>
+        </div>
+        
+        
+        
+    </div>
+</div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/00a449879e.js" crossorigin="anonymous" async></script>
+    <!-- SweetAlert2 CDN -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
